@@ -20,7 +20,7 @@ class Dijkstra:
 
         # 创建窗口
         self.screen = pygame.display.set_mode((self.width, self.hight))
-        pygame.display.set_caption("A*")
+        pygame.display.set_caption("Dijkstra")
 
         # 定义颜色
         self.white = (255, 255, 255)
